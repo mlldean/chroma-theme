@@ -16,6 +16,11 @@
 
 $colorBackground: #F5F5F5;
 
+/*TEMPORARY*/
+body{
+	margin-top:18rem;
+}
+
 .aui .color-scheme-default {
 	padding: 0;
 	background: $colorBackground;
@@ -28,7 +33,7 @@ $colorBackground: #F5F5F5;
 	}
 
 	#wrapper {
-		/*margin-top: -256px;*/
+		margin-top: -256px;
 	}
 
 	#wrapper, #banner {
