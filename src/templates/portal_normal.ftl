@@ -98,15 +98,33 @@
 	</section>
 
 
-	<footer id="footer" role="contentinfo">
+	<footer id="footer" role="contentinfo" class="footer">
 
-		<#-- TODO: need to add contact info here. Can I make this configurable to grab a web content article?
-				 Don't want to have to update theme for minor edits
+		<#-- TODO: Add footer
+				 TODO: Move footer content into web article. Don't want to have to update theme for minor edits
 	   -->
 
-		<p class="powered-by">
-			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay</a>
-		</p>
+		 <#--Looks like footer will have address on left and contact on right
+		 		 Probably a 70/30 split
+				 Use flexbox to make responsive
+	  -->
+
+		 <div class="container">
+		 		<div class="row">
+				 <div class="col-sm">
+					 <p>The Judge Advocate General's Legal Center & School</p>
+					 <p>600 Massie Rd</p>
+					 <p>Charlottesville, VA 22903</p>
+					 <p>Main Reception Desk: <a href="tel:1-434-971-3300">(434) 971-3300</a></p>
+					 <p><a href="https://tjaglcspublic.army.mil/lodging">Lodging:</a> <a href="tel:1-434-972-6450">(434) 972-6450</a></p>
+				 </div>
+				 <div class="col-sm-auto">
+					 <p>Directory...</p>
+					 <p>Contact...</p>
+					 <p>FB...</p>
+				 </div>
+			 </div>
+		 </div>
 	</footer>
 
 
