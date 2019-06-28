@@ -103,11 +103,12 @@ body{
 	//display: flex;
 	//flex-direction: row;
 	//flex-wrap: wrap;
-	padding: 1rem;
+	padding: 2rem 1rem 2rem 1rem;
 
 
 
   //clear bootstrap container max width
+	//TODO: instead of clearing width here, try to add a larger breakpoint to Bootstrap
 	.container{
 		max-width: none;
 
