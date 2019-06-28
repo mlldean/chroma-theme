@@ -24,7 +24,8 @@
 
 <#-- -->
 
-
+//TODO: wrapper should shrink when control panel is open, like in LR classic theme. See how their CSS is set up.
+<div class="pt-0" id="#wrapper">
 	<header id="banner" role="banner">
 			<div id="heading">
 
@@ -116,17 +117,16 @@
 					 <p>600 Massie Rd</p>
 					 <p>Charlottesville, VA 22903</p>
 					 <p>Main Reception Desk: <a href="tel:1-434-971-3300">(434) 971-3300</a></p>
-					 <p><a href="https://tjaglcspublic.army.mil/lodging">Lodging:</a> <a href="tel:1-434-972-6450">(434) 972-6450</a></p>
+					 <p><a href="/lodging">Lodging:</a> <a href="tel:1-434-972-6450">(434) 972-6450</a></p>
 				 </div>
 				 <div class="col-sm-auto">
-					 <p>Directory...</p>
-					 <p>Contact...</p>
-					 <p>FB...</p>
+					 <p><a href="/documents/27431/135130/Directory+2016-2017/24975c80-c9e5-4797-8659-bef0abd022dc">Directory</a></p>
+					 <p><a href="/support">Contact Us</a></p>
 				 </div>
 			 </div>
 		 </div>
 	</footer>
-
+</div>
 
 <@liferay_util["include"] page=body_bottom_include />
 
